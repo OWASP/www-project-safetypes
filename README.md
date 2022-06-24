@@ -42,3 +42,6 @@ protected void validate(T value) throws TypeValidationException { }
 
 `accept()` must be implemented by any new special class, which is not part of the library, while
 `validate()` is intended to facilitate the customization of existing classes.
+
+## License
+OWASP Java safetypes is free to use under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0).
