@@ -1,26 +1,15 @@
----
-
-layout: col-sidebar
-title: OWASP safetypes
-tags: example-tag
-level: 2
-type: code
-pitch: A very brief, one-line description of your project
-
----
-
 # About
-Safetypes is a Java library, which aims to decrease the cost and effort for
+Safetypes is a Java library, which aims to decrease the cost and effort for 
 input validation for REST APIs.
 
 ## Summary
-The safetypes-java library contains special classes which
-can substitute their conventional alternatives in Java and
-which aid input validation on deserialization level,
+The safetypes-java library contains special classes which 
+can substitute their conventional alternatives in Java and 
+which aid input validation on deserialization level, 
 when used in a REST API implementation.
 
 ## Example
-safetypes-java contains classes which can be used instead of
+safetypes-java contains classes which can be used instead of 
 String when declaring a request parameter:
 
 ```
@@ -33,12 +22,12 @@ return new ResponseEntity<>(word.get(), HttpStatus.OK);
 }
 ...
 ```
-The class Word is used instead of String and in the same time
-Word is constructed in such a way, that it allows only for
-letters, e.g. "abcd", "test", "Todor", etc. and it throws
-an exception for everything else, e.g. "this is a test",
-"number1", "Ol3v". From the API point of view, a correct and
-expected input will be successfully processed, while something
+The class Word is used instead of String and in the same time 
+Word is constructed in such a way, that it allows only for 
+letters, e.g. "abcd", "test", "Todor", etc. and it throws 
+an exception for everything else, e.g. "this is a test", 
+"number1", "Ol3v". From the API point of view, a correct and 
+expected input will be successfully processed, while something 
 incorrect or unexpected will lead to a Bad Request response.
 
 ## Extensibility
