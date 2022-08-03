@@ -1,2 +1,2 @@
 ### Code Repository
-* [GitHub](https://github.com/OWASP/www-project-safetypes)
+* [GitHub](https://github.com/OWASP/safetypes)

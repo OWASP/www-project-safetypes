@@ -9,7 +9,7 @@ pitch: A very brief, one-line description of your project
 
 ---
 
-# About
+## About
 Safetypes is a Java library, which aims to decrease the cost and effort for
 input validation for REST APIs.
 
