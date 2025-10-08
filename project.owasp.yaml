@@ -1,0 +1,27 @@
+audience:
+  - builder
+community:
+  - name: project-safetypes
+    platform: slack
+    url: https://owasp.slack.com/archives/C0432Q430Q3
+leaders:
+  - name: Todor Olev
+    email: todor.olev@owasp.org
+    github: todorolev
+level: 2
+license:
+  - Apache-2.0
+name: OWASP safetypes
+pitch: A very brief, one-line description of your project
+repositories:
+  - name: www-project-safetypes
+    url: https://github.com/OWASP/www-project-safetypes
+    description: OWASP Foundation Web Repository
+  - name: safetypes
+    url: https://github.com/OWASP/safetypes
+tags:
+  - example-tag
+  - custom-tag-1
+  - custom-tag-2
+type: code
+website: https://owasp.org/www-project-safetypes
